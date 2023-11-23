@@ -78,5 +78,5 @@ I have also learnt to use CSS variables to set common color styles for different
 ## Author
 
 - Name - [Marley]
-- Frontend Mentor - [@Marley-Semende](https://www.frontendmentor.io/profile/Marley-Semende)
+- Frontend Mentor Profile - [@Marley-Semende](https://www.frontendmentor.io/profile/Marley-Semende)
 - LinkedIn - [Marley Semende] (https://www.linkedin.com/in/marley-semende-web-dev/)
