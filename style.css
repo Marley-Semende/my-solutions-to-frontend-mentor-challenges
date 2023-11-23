@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Chakra+Petch&family=Lexend+Deca&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:wght@300&family=Outfit&family=Playfair+Display&family=Poppins:wght@300;400&family=Roboto:wght@300&family=Space+Grotesk&family=Tilt+Neon&family=Tourney&family=Vina+Sans&display=swap');
 
 :root {
+    --background-color-column1: hsl(31, 77%, 52%);
+    --background-color-column2: hsl(184, 100%, 22%);
+    --background-color-column-3: hsl(179, 100%, 13%);
     box-sizing: border-box;
 }
 
@@ -36,21 +39,21 @@ body {
 }
 
 .column-1 {
-    background-color: hsl(31, 77%, 52%);
-    box-shadow: 0 1px 1px 0 hsl(31, 77%, 52%);
+    background-color: var(--background-color-column1);
+    box-shadow: 0 1px 1px 0 var(--background-color-column1);
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
 
 .column-2 {
-    background-color: hsl(184, 100%, 22%);
-    box-shadow: 0 1px 2px 0 hsl(184, 100%, 22%);
+    background-color: var(--background-color-column2);
+    box-shadow: 0 1px 2px 0 var(--background-color-column2);
     border-radius: 1px;
 }
 
 .column-3 {
-    background-color: hsl(179, 100%, 13%);
-    box-shadow: 0 1px 1px 0 hsl(179, 100%, 13%);
+    background-color: var(--background-color-column-3);
+    box-shadow: 0 1px 1px 0 var(--background-color-column-3);
     border-radius: 1px;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
@@ -81,33 +84,33 @@ button {
 }
 
 .btn-1 {
-    color: hsl(31, 77%, 52%);
+    color: var(--background-color-column1);
 }
 
 .btn-1:hover {
-    background-color: hsl(31, 77%, 52%);
+    background-color: var(--background-color-column1);
     color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
     cursor: pointer;
 }
 
 .btn-2 {
-    color: hsl(98, 100%, 22%);
+    color: var(--background-color-column2);
 }
 
 .btn-2:hover {
-    background-color: hsl(184, 100%, 22%);
+    background-color: var(--background-color-column2);
     color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
     cursor: pointer;
 }
 
 .btn-3 {
-    color: hsl(179, 100%, 13%);
+    color: var(--background-color-column-3);
 }
 
 .btn-3:hover {
-    background-color: hsl(179, 100%, 13%);
+    background-color: var(--background-color-column-3);
     color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
     cursor: pointer;

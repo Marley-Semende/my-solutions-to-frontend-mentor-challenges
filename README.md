@@ -64,9 +64,20 @@ I have also learnt to use CSS variables to set common color styles for different
     }
   }
 }
-```
 
-```css
+:root {
+  --background-color-column1: hsl(31, 77%, 52%);
+  --backround-color-column2: hsl(184, 100%, 22%);
+  --background-color-column-3: hsl(179, 100%, 13%);
+}
+
+.column-1 {
+  background-color: var(--background-color-column1);
+  box-shadow: 0 1px 1px 0 var(--background-color-column1);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
 .btn-2:hover {
   background-color: hsl(184, 100%, 22%);
   color: hsl(0, 0%, 95%);
