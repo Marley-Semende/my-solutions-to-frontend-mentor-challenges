@@ -58,8 +58,8 @@ h1 {
 
 .subscription-info {
     background-color: var(--very-pale-blue);
-    border-radius: 5px;
-    margin: 3% 12% 3% 10%;
+    border-radius: 8px;
+    margin: 1% 12% 3% 10%;
     padding: 5px;
     display: flex;
     justify-content: space-around;
@@ -94,22 +94,24 @@ p.cancel-text {
     text-align: center;
     font-size: 14px;
     font-weight: 500;
-    padding: 2% 2% 8% 2%;
+    padding: 10% 2% 8% 2%;
     color: var(--desaturated-blue);
 }
 
 p.cancel-text:hover {
-    font-weight: 700;
+    font-weight: 900;
     cursor: pointer;
+    color: var(--dark-blue);
 }
 
 button {
     background-color: var(--bright-blue);
     border: var(--bright-blue);
-    padding: 8px 60px;
-    border-radius: 4px;
-    margin: 6% 15% 3% 15%;
+    padding: 10px 50px;
+    border-radius: 6px;
+    margin: auto 70px;
     color: var(--white);
+    font-weight: 900;
 }
 
 button:hover {
@@ -122,7 +124,7 @@ button:hover {
     text-align: center;
     color: var(--dark-blue);
     font-weight: 700;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .attribution a {
