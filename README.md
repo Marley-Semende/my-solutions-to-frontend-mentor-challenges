@@ -18,13 +18,16 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop View
 ![](./screenshot-desktop-view.png)
+
+Mobile View
 ![](./screenshot-mobile-view.png)
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/Marley-Semende/order-summary-card)
+- Live Site URL: (https://marley-semende.github.io/order-summary-card/)
 
 ## My process
 
