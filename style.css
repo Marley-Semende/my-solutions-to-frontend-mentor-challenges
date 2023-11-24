@@ -29,8 +29,8 @@ body {
 }
 
 #order-card-container {
-    height: 90vh;
-    width: 60vh;
+    height: 80vh;
+    width: 50vh;
     background-color: var(--white);
     border-radius: 15px;
 }
@@ -53,14 +53,14 @@ h1 {
 .main-text p {
     padding: 5% 0;
     text-align: center;
-    color: var(--desaturated-blue);
+    color: var(--dark-blue);
+    font-weight: 700;
 }
 
 .subscription-info {
     background-color: var(--very-pale-blue);
     border-radius: 8px;
     margin: 1% 7% 10% 7%;
-
     padding: 5px;
     display: flex;
     justify-content: space-around;
@@ -68,15 +68,15 @@ h1 {
 }
 
 .span-1 {
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 900;
+    font-size: 15px;
     color: var(--dark-blue);
 }
 
 .span-2 {
     font-size: 14px;
     font-weight: 500;
-    color: var(--desaturated-blue);
+    color: var(--dark-blue);
 }
 
 a {
@@ -86,7 +86,7 @@ a {
 }
 
 a:hover {
-    color: var(--desaturated-blue);
+    color: var(--dark-blue);
     text-decoration: none;
     cursor: pointer;
 }
@@ -94,9 +94,10 @@ a:hover {
 p.cancel-text {
     text-align: center;
     font-size: 14px;
-    font-weight: 500;
-    padding: 10% 2% 8% 2%;
-    color: var(--desaturated-blue);
+    font-weight: 900;
+    padding: 7% 2% 7% 2%;
+    margin-top: -3%;
+    color: var(--dark-blue);
 }
 
 p.cancel-text:hover {
@@ -108,7 +109,7 @@ p.cancel-text:hover {
 button {
     background-color: var(--bright-blue);
     border: var(--bright-blue);
-    padding: 10px 50px;
+    padding: 3% 5%;
     border-radius: 6px;
     margin: 0 auto;
     display: block;
@@ -141,5 +142,17 @@ button:hover {
         background: url(./images/pattern-background-mobile.svg);
         background-repeat: no-repeat;
         background-size: 260%;
+    }
+
+    #order-card-container {
+        width: 70%;
+        height: 90vh;
+    }
+}
+
+@media (min-width:375px) {
+    #order-card-container {
+        height: 80vh;
+        width: 50vh;
     }
 }

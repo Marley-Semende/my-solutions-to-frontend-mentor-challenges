@@ -18,11 +18,7 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop View
-![](./screenshot-desktop-view.png)
-
-Mobile View
-![](./screenshot-mobile-view.png)
+![](./screenshot.png)
 
 ### Links
 
@@ -44,21 +40,30 @@ I have made use of HTML and CSS concepts like flexbox, box-sizing, css variables
 CSS Variables
 Pseudo-Selectors
 Flexbox
+@Media and Responsiveness
 
 ```css
 .subscription-info {
   background-color: var(--very-pale-blue);
-  border-radius: 5px;
-  margin: 3% 12% 3% 10%;
+  border-radius: 8px;
+  margin: 1% 7% 10% 7%;
   padding: 5px;
   display: flex;
   justify-content: space-around;
   text-align: left;
 }
+:root {
+  --pale-blue: #e0e8ff;
+  --white: #fff;
+  --dark-blue: #1f2f56;
+  --bright-blue: #3829e0;
+  --very-pale-blue: #f5f7ff;
+  --desaturated-blue: #7280a7;
+}
 ```
 
 ## Author
 
-- Name - [Name]
+- Name - [Marley]
 - Frontend Mentor - [@Marley-Semende](https://www.frontendmentor.io/profile/Marley-Semende)
 - LinkedIn - [Marley Semende](https://www.linkedin.com/in/marley-semende-web-dev/)
