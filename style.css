@@ -43,7 +43,7 @@ body {
 }
 
 h1 {
-    padding: 3%;
+    padding: 3% 0;
     font-weight: 900;
     font-size: 24px;
     color: var(--dark-blue);
@@ -51,7 +51,7 @@ h1 {
 }
 
 .main-text p {
-    padding: 5%;
+    padding: 5% 0;
     text-align: center;
     color: var(--desaturated-blue);
 }
@@ -59,7 +59,8 @@ h1 {
 .subscription-info {
     background-color: var(--very-pale-blue);
     border-radius: 8px;
-    margin: 1% 12% 3% 10%;
+    margin: 1% 7% 10% 7%;
+
     padding: 5px;
     display: flex;
     justify-content: space-around;
@@ -109,9 +110,12 @@ button {
     border: var(--bright-blue);
     padding: 10px 50px;
     border-radius: 6px;
-    margin: auto 70px;
+    margin: 0 auto;
+    display: block;
     color: var(--white);
     font-weight: 900;
+    width: 80%;
+    box-sizing: border-box;
 }
 
 button:hover {
