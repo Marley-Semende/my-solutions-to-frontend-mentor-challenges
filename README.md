@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: ()
-- Live Site URL: ()
+- Solution URL: (https://github.com/Marley-Semende/stats-preview-card-component)
+- Live Site URL: (https://marley-semende.github.io/stats-preview-card-component/)
 
 ## My process
 
