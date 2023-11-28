@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+:root {
+    --cream: #f2ebe3;
+    --white: #fff;
+    --very-dark-blue: #1c232b;
+    --dark-grayish-blue: #6c7289;
+    --dark-cyan: #3c8067;
+    --darker-cyan: #1f5042;
+    --fraunces: "Fraunces", sans-serif;
+    --montserrat: "Montserrat", serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.container {
+    width: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    object-fit: cover;
+    display: block;
+}
+
+.image-container {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    background-color: var(--white);
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    padding: 8%;
+}
+
+p.title {
+    font-family: var(--montserrat);
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 3%;
+}
+
+.text-container h1 {
+    font-family: var(--fraunces);
+    font-weight: 700;
+    margin-bottom: 14%;
+    padding-right: 13%;
+}
+
+p.main-text {
+    font-family: var(--montserrat);
+    color: var(--dark-grayish-blue);
+    font-weight: 500;
+    margin-bottom: 14%;
+}
+
+.price-text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15%;
+}
+
+.price-text h2 {
+    color: var(--dark-cyan);
+    font-family: var(--fraunces);
+    font-weight: 700;
+}
+
+.price-text p {
+    font-family: var(--montserrat);
+    font-weight: 500;
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+}
+
+button {
+    font-family: var(--montserrat);
+    font-weight: 500;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    border: var(--dark-cyan);
+    border-radius: 3%;
+    padding: 4% 29%;
+    margin-top: 2%;
+}
+
+button:hover {
+    background-color: var(--darker-cyan);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        grid-template-columns: 1fr;
+        width: 90vw;
+        height: auto;
+        margin: 5%;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+        border-top-right-radius: 3%;
+        border-top-left-radius: 3%;
+        border-bottom-left-radius: 0;
+    }
+
+    .text-container {
+
+        border-bottom-left-radius: 3%;
+        border-bottom-right-radius: 3%;
+        border-top-right-radius: 0;
+        padding: 10%;
+    }
+
+    p.main-text {
+        margin-bottom: 5%;
+    }
+
+    .text-container h1 {
+        margin-bottom: 5%;
+    }
+}
