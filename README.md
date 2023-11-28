@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []
-- Live Site URL: []
+- Solution URL: [https://github.com/Marley-Semende/product-preview-card-component]
+- Live Site URL: [https://marley-semende.github.io/product-preview-card-component/]
 
 ## My process
 
