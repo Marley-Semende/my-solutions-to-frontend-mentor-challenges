@@ -113,7 +113,7 @@ body p {
 .cards-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.4%;
+    gap: 2%;
     grid-auto-rows: 15rem;
     margin-top: 3%;
 }
