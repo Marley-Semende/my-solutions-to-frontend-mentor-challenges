@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root {
+    --very-dark-magneta: #502050;
+    --soft-pink: #ee68a4;
+    --dark-grayish-magenta: #937b92;
+    --light-grayish-magenta: #f7f2f7;
+    --white: #fff;
+    --font-family: "League Spartan"
+}
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-grayish-magenta);
+    background: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-size: 30%, 70%;
+    background-repeat: no-repeat, no-repeat;
+    width: 100vw;
+    font-family: var(--font-family);
+    min-height: 100vh;
+}
+
+body p {
+    font-size: 16px;
+}
+
+.main-container {
+    margin: 0 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.text-ratings-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.main-text {
+    max-width: 34%;
+    margin-left: -15%;
+    margin-bottom: 5%;
+}
+
+.main-text h1 {
+    color: var(--very-dark-magneta);
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 4%;
+}
+
+.main-text p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--font-family);
+    color: var(--dark-grayish-magenta);
+    letter-spacing: 1.5%;
+    line-break: normal;
+}
+
+.ratings-container {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    min-width: 40%;
+    margin-bottom: 3%;
+
+}
+
+.ratings-container img {
+    margin-right: 1%;
+}
+
+.ratings-container p {
+    margin-left: 5%;
+    font-weight: 400;
+    display: inline;
+    color: var(--very-dark-magneta);
+    font-size: 16px;
+}
+
+.ratings-1,
+.ratings-2,
+.ratings-3 {
+    background-color: var(--light-grayish-magenta);
+    margin-top: 3%;
+    padding: 4% 3%;
+    border-radius: 10px;
+}
+
+.ratings-2 {
+    margin-left: 13%;
+    margin-right: -13%;
+}
+
+.ratings-3 {
+    margin-left: 25%;
+    margin-right: -25%;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.4%;
+    grid-auto-rows: 15rem;
+}
+
+.cards-container .title {
+    display: flex;
+}
+
+.cards-container img {
+    max-width: 15%;
+    border-radius: 48%;
+    border: var(--soft-pink) 3px solid;
+}
+
+.cards-container h4 {
+    margin-left: 10%;
+    font-weight: 500;
+    color: var(--light-grayish-magenta);
+}
+
+.cards-container h5 {
+    margin-left: 25%;
+    margin-top: -8%;
+    color: var(--soft-pink);
+    font-weight: 500;
+}
+
+.cards-container p {
+    margin-top: 8%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    background-color: var(--very-dark-magneta);
+    padding: 8%;
+    border-radius: 10px;
+    color: var(--light-grayish-magenta);
+}
+
+.card-1 {
+    align-self: flex-start;
+}
+
+.card-2 {
+    align-self: center;
+}
+
+.card-3 {
+    align-self: flex-end;
+}
+
+@media only screen and (max-width: 675px) {
+    body {
+        background: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+        background-position: top left, bottom right;
+        background-size: 100%, 100%;
+        background-repeat: no-repeat, no-repeat;
+        max-width: 90%;
+        min-height: 100%;
+    }
+
+    .main-container {
+        margin: 2% -3% 2% 7%;
+    }
+
+    .text-ratings-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-text {
+        margin: 5%;
+        min-width: 80%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .ratings-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ratings-1,
+    .ratings-2,
+    .ratings-3 {
+        margin: 1%;
+        display: flex;
+        align-items: center;
+        padding: 5% 2%;
+        background-color: var(--light-grayish-magenta);
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        margin: 2%;
+    }
+}
