@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Live Site URL]()
+- Solution URL: [Solution URL](https://github.com/Marley-Semende/social-proof-section)
+- Live Site URL: [Live Site URL](https://marley-semende.github.io/social-proof-section/)
 
 ## My process
 
