@@ -56,7 +56,7 @@ body p {
 .main-text h1 {
     color: var(--very-dark-magneta);
     font-weight: 700;
-    font-size: 45px;
+    font-size: 55px;
     margin-bottom: 4%;
 }
 
@@ -84,7 +84,7 @@ body p {
 
 .ratings-container p {
     margin-left: 5%;
-    font-weight: 400;
+    font-weight: 700;
     display: inline;
     color: var(--very-dark-magneta);
     font-size: 16px;
@@ -114,6 +114,7 @@ body p {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.4%;
     grid-auto-rows: 15rem;
+    margin-top: 3%;
 }
 
 .cards-container .title {
@@ -149,7 +150,8 @@ body p {
 .card-2,
 .card-3 {
     background-color: var(--very-dark-magneta);
-    padding: 8%;
+    padding: 10%;
+    height: auto;
     border-radius: 10px;
     color: var(--light-grayish-magenta);
 }
