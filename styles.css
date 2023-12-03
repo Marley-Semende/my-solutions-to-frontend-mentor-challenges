@@ -61,12 +61,13 @@ body p {
 }
 
 .main-text p {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     font-family: var(--font-family);
     color: var(--dark-grayish-magenta);
-    letter-spacing: 1.5%;
+    letter-spacing: 1%;
     line-break: normal;
+    margin-top: 6%;
 }
 
 .ratings-container {
