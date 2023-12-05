@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 
-- Solution URL: [Solution Link]()
+- Solution URL: [Solution Link](https://github.com/Marley-Semende/NFT-Preview-Card)
 - Live Site URL: [Live Site URL]()
 
 
