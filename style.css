@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --very-dark-blue: hsl(217, 54%, 11%);
+    --very-dark-blue-card: hsl(216, 50%, 16%);
+    --white: hsl(0, 0%, 100%);
+    --very-soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --outfit-font: "Outfit", sans-serif;
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--outfit-font);
+    margin: 0;
+
+}
+
+body p {
+    font-size: 1.8rem;
+}
+
+.container {
+    background-color: var(--very-dark-blue-card);
+    max-width: 350px;
+    width: 100%;
+    padding: 2%;
+    border-radius: 10px;
+
+}
+
+.image-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    border-radius: 10px;
+}
+
+.icon-view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.main-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.main-img:hover {
+    cursor: pointer;
+    color: var(--cyan);
+    background-image: url(./images/icon-view.svg);
+}
+
+h2 {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+h2:hover {
+    cursor: pointer;
+    color: var(--cyan);
+}
+
+.main-text {
+    color: var(--very-soft-blue);
+    margin-bottom: 4%;
+}
+
+.flex img {
+    vertical-align: middle;
+}
+
+.flex p {
+    display: inline;
+    vertical-align: middle;
+}
+
+p.cyan {
+    color: var(--cyan);
+}
+
+.flex p:not(.cyan) {
+    color: var(--very-soft-blue);
+}
+
+p span {
+    color: var(--very-soft-blue);
+}
+
+.clock {
+    margin-left: 25%;
+    vertical-align: middle;
+}
+
+.flex {
+    margin-bottom: 3%;
+}
+
+.creator-info p:not(span) {
+    color: var(--white);
+}
+
+.creator-info p:not(span):hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.creator-info img {
+    width: 15%;
+    border: var(--white) 2px solid;
+    border-radius: 50%;
+}
+
+.creator-info {
+    margin-top: 3%;
+}
+
+.creator-info p {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 5%;
+}
+
+.creator-info img {
+    vertical-align: middle;
+}
+
+.creator-info img:hover {
+    border: var(--very-soft-blue) 2px solid;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 312px;
+        width: 100%;
+    }
+}
