@@ -29,7 +29,7 @@ Users should be able to:
 
 
 - Solution URL: [Solution Link](https://github.com/Marley-Semende/NFT-Preview-Card)
-- Live Site URL: [Live Site URL]()
+- Live Site URL: [Live Site URL](https://marley-semende.github.io/NFT-Preview-Card/)
 
 
 ## My process
