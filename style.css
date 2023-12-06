@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root {
+    --barlow-font: "Barlow Semi Condensed";
+    --moderate-violate: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    font-size: 62.5%;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--light-grayish-blue);
+    font-family: var(--barlow-font);
+}
+
+body p {
+    font-size: 1.3rem;
+}
+
+/*center main page */
+.main-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*testimonial cards styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    column-gap: 1.5%;
+    row-gap: 1.5%;
+    max-width: 75%;
+    width: 100%;
+}
+
+/* testimonial cards view on smaller screens */
+
+@media only screen and (max-width: 767px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*individual card styling */
+.card-1 {
+    background: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 20%;
+    background-size: 22%;
+    background-color: var(--moderate-violate);
+    color: var(--light-gray);
+    grid-column: span 2;
+}
+
+.card-2 {
+    background-color: var(--very-dark-grayish-blue);
+    color: var(--light-gray);
+}
+
+.card-3 {
+    background-color: var(--white);
+    grid-row: span 2;
+    color: var(--very-dark-blackish-blue);
+}
+
+.card-4 {
+    background-color: var(--white);
+    color: var(--very-dark-blackish-blue);
+}
+
+.card-5 {
+    background-color: var(--very-dark-blackish-blue);
+    color: var(--light-gray);
+    grid-column: span 2;
+}
+
+/* all cards common styles */
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    text-align: left;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+    border: var(--moderate-violate) 2px solid;
+}
+
+.profile-info p {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    margin-left: 20%;
+    white-space: nowrap;
+}
+
+p.name {
+    font-weight: 600;
+}
+
+/* opacity styling for userProfile subheading*/
+.card-1 p.title {
+    color: hsl(0, 0%, 81%, 0.5);
+    font-weight: 600;
+}
+
+.card-2 p.title {
+    color: hsl(0, 0%, 81%, 0.5);
+    font-weight: 600;
+}
+
+.card-3 p.title {
+    color: hsl(217, 19%, 35%, 0.5);
+    font-weight: 600;
+}
+
+.card-4 p.title {
+    color: hsl(217, 19%, 35%, 0.5);
+    font-weight: 600;
+}
+
+.card-5 p.title {
+    color: hsl(0, 0%, 81%, 0.5);
+    font-weight: 600;
+}
+
+
+h1 {
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+.opacity-white {
+    color: hsl(0, 0%, 81%, 0.7);
+    font-weight: 500;
+    letter-spacing: 2%;
+}
+
+.opacity-black {
+    color: hsl(219, 29%, 14%, 0.7);
+    font-weight: 500;
+    letter-spacing: 2%;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+    margin: 2%;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover,
+.card-4:hover,
+.card-5:hover {
+    cursor: pointer;
+}
