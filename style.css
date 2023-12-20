@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    background-color: var(--very-dark-blue);
+    font-family: "Overpass", sans-serif;
+
+}
+
+body p {
+    color: var(--light-grey);
+    font-size: 15px;
+}
+
+h1 {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 28px;
+    padding: 4.8% 1.6%;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+}
+
+.star-img-container {
+    background-color: hsla(216, 12%, 54%, 0.1);
+    width: 50px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.card-container {
+    background-color: var(--dark-blue);
+    padding: 2% 2%;
+    border-radius: 30px;
+    max-width: 414px;
+    height: auto;
+    margin-top: 10%;
+}
+
+.ratings-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+.ratings-btn-container button {
+    text-align: center;
+    padding: 1.2vw 1.5vw;
+    border-radius: 50%;
+    color: var(--light-grey);
+    background-color: hsla(216, 12%, 54%, 0.1);
+    list-style-type: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+}
+
+.ratings-btn-container button:hover {
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.ratings-btn-container button:focus {
+    background-color: var(--medium-grey);
+    color: var(--white);
+}
+
+.submit-btn {
+    background-color: var(--orange);
+    border: none;
+    color: var(--white);
+    padding: 3% 39%;
+    border-radius: 18px;
+    font-family: "Overpass";
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 12%;
+    margin-bottom: 2%;
+}
+
+.submit-btn:hover {
+    background-color: var(--white);
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.thank-you-card {
+    background-color: var(--dark-blue);
+    max-width: 414px;
+    border-radius: 30px;
+    padding: 2% 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.thank-you-card img {
+    margin: 8% auto;
+}
+
+.thank-you-card button {
+    background-color: hsla(216, 12%, 54%, 0.1);
+    border: 1px solid hsla(216, 12%, 54%, 0.1);
+    color: var(--orange);
+    padding: 2% 6%;
+    border-radius: 15px;
+    margin-bottom: 4%;
+    font-family: "Overpass";
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.thank-you-card button:hover {
+    cursor: pointer;
+}
+
+.thank-you-card h2 {
+    color: var(--white);
+    font-weight: 700;
+    margin-top: 5%;
+    font-size: 28px;
+}
+
+.thank-you-card p {
+    color: var(--light-grey);
+    font-weight: 400;
+    margin-top: 2.5%;
+    padding-bottom: 10%;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 475px) {
+    .card-container {
+        max-width: 90vw;
+        margin-top: 30%;
+        text-align: center;
+    }
+
+    .thank-you-card {
+        margin-top: 30%;
+        text-align: center;
+    }
+
+    .submit-btn {
+        padding: 3% 34%;
+        margin-top: 12%;
+
+    }
+
+}
