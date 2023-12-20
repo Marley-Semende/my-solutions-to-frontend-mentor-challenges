@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL]()
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/Marley-Semende/Interactive-rating-component)
+- Live Site URL: [Live Site URL](https://marley-semende.github.io/Interactive-rating-component/)
 
 ## My process
 
