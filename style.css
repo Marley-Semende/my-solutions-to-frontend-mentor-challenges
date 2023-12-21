@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    font-family: "Figtree";
+    background-color: var(--yellow);
+}
+
+body p {
+    font-size: 16px;
+}
+
+.main-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-container {
+    width: 385px;
+    padding: 1.8%;
+    border-radius: 15px;
+    background-color: var(--white);
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 2.5px 5px var(--black);
+}
+
+.img-1 {
+    border-radius: 15px;
+    width: 100%;
+}
+
+button {
+    background-color: var(--yellow);
+    border: none;
+    padding: 1.8% 3.5%;
+    border-radius: 4px;
+    font-weight: 800;
+    color: var(--black);
+    margin-top: 3.2%;
+}
+
+button:hover {
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+button:focus {
+    background-color: orange;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 3%;
+    color: var(--black);
+}
+
+h1:hover {
+    cursor: pointer;
+    color: var(--yellow);
+}
+
+h1:focus {
+    color: orange;
+}
+
+.publication {
+    margin-top: 5%;
+}
+
+.main-text {
+    color: var(--grey);
+    font-size: 16px;
+    margin-top: 5%;
+    padding-top: 1%;
+}
+
+.img-2 {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.user-name {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 5%;
+    font-weight: 800;
+}
+
+.user-profile {
+    padding-top: 12%;
+}
+
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+    color: var(--black);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
