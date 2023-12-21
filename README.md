@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution URL]()
-- Live Site URL: [My Solution Live Site]()
+- Solution URL: [My Solution URL](https://github.com/Marley-Semende/blog-preview-component)
+- Live Site URL: [My Solution Live Site](https://marley-semende.github.io/blog-preview-component/)
 
 ## My process
 
