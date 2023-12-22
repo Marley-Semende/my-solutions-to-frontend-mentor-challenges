@@ -6,12 +6,14 @@ const iconFour = document.querySelector(".plus-icon-four");
 const minusButton = "assets/images/icon-minus.svg";
 const answerElement = document.querySelectorAll(".other-answers");
 
-// iconOne.addEventListener("click", (e) => {
-//   iconOne.src = minusButton;
-//   iconOne.style.cursor = "pointer";
-// answerElementOne.innerHTML = ``;
-// answerElementOne.style.color = "";
-//});
+iconOne.addEventListener("click", (e) => {
+  iconOne.src = minusButton;
+  iconOne.style.cursor = "pointer";
+  answerElementOne.innerHTML = `Frontend Mentor offers realistic coding challenges to help developers improve their
+frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
+all levels and ideal for portfolio building.`;
+  answerElementOne.style.color = "hsl(292, 16%, 49%)";
+});
 
 iconTwo.addEventListener("click", (e) => {
   iconTwo.src = minusButton;
