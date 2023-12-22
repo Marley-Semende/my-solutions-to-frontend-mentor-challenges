@@ -6,12 +6,12 @@ const iconFour = document.querySelector(".plus-icon-four");
 const minusButton = "assets/images/icon-minus.svg";
 const answerElement = document.querySelectorAll(".other-answers");
 
-iconOne.addEventListener("click", (e) => {
-  iconOne.src = minusButton;
-  iconOne.style.cursor = "pointer";
-  // answerElementOne.innerHTML = ``;
-  // answerElementOne.style.color = "";
-});
+// iconOne.addEventListener("click", (e) => {
+//   iconOne.src = minusButton;
+//   iconOne.style.cursor = "pointer";
+// answerElementOne.innerHTML = ``;
+// answerElementOne.style.color = "";
+//});
 
 iconTwo.addEventListener("click", (e) => {
   iconTwo.src = minusButton;
