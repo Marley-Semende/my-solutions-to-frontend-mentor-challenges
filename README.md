@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution Link]()
-- Live Site URL: [Live Site Link]()
+- Solution URL: [My Solution Link](https://github.com/Marley-Semende/FAQ-accordion)
+- Live Site URL: [Live Site Link](https://marley-semende.github.io/FAQ-accordion/)
 
 ## My process
 
