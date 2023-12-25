@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --tomato: hsl(4, 100%, 67%);
+    --dark-slate-grey: hsl(234, 29%, 20%);
+    --charcoal-grey: hsl(235, 18%, 26%);
+    --grey: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+    --tomato-1: hsl(3, 100%, 64%);
+    font-size: 62.5%;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto";
+    background-color: var(--dark-slate-grey);
+}
+
+body p {
+    font-size: 1.6rem;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    width: 50rem;
+    background-color: var(--white);
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 6% 3% 4% 3%;
+}
+
+.intro-text {
+    padding-right: 10%;
+}
+
+.main-img {
+    width: 43rem;
+    background-color: var(--white);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 1%;
+}
+
+.signup-container h1 {
+    color: var(--dark-slate-grey);
+    font-size: 5.5rem;
+    margin-top: 4%;
+}
+
+.signup-container p {
+    color: var(--charcoal-grey);
+}
+
+.list-container li {
+    list-style-type: none;
+}
+
+.btn-1 {
+    width: 100%;
+    height: 9vh;
+    background-color: var(--dark-slate-grey);
+    color: var(--white);
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    font-family: "Roboto";
+    font-size: 1.6rem;
+    margin-top: 4%;
+}
+
+.btn-1:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, hsl(3, 100%, 64%) 50%, hsl(4, 100%, 67%));
+    border: none;
+}
+
+label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--dark-slate-grey);
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input {
+    padding: 3%;
+    width: 100%;
+    height: 9vh;
+    color: var(--grey);
+    font-size: 1.6rem;
+    border-radius: 10px;
+    outline: none;
+    border: var(--grey) 1px solid;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.list-container p {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 3%;
+}
+
+.list-container img {
+    vertical-align: middle;
+}
+
+.list-item {
+    margin: 3.8%;
+}
+
+.success-msg-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-msg-card {
+    width: 500px;
+    background-color: var(--white);
+    padding: 3.8% 5%;
+    border-radius: 25px;
+}
+
+.btn-2 {
+    background-color: var(--dark-slate-grey);
+    color: var(--white);
+    padding: 5% 34%;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.6rem;
+    margin-top: 15%;
+    white-space: nowrap;
+}
+
+.btn-2:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, hsl(3, 100%, 64%) 50%, hsl(4, 100%, 67%));
+}
+
+.success-msg-card h2 {
+    font-weight: 700;
+    font-size: 5.5rem;
+    color: var(--dark-slate-grey);
+    margin-top: 6%;
+}
+
+.success-msg-card p {
+    margin-top: 5%;
+}
+
+.success-msg-card p:not(span) {
+    color: var(--charcoal-grey);
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.span-1 {
+    color: var(--tomato);
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.span-2 {
+    color: var(--dark-slate-grey);
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    color: var(--white);
+    margin-top: 6px;
+    font-family: "Roboto";
+}
+
+.attribution a {
+    color: var(--tomato);
+}
+
+@media only screen and (max-width: 765px) {
+    body p {
+        font-size: 1.5rem;
+    }
+
+    .signup-container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 8%;
+    }
+
+    .span-1 {
+        font-size: 1.4rem;
+        margin-left: 30%;
+    }
+
+    .desktop-img {
+        display: none !important;
+    }
+
+    .main-img {
+        display: none;
+    }
+
+    .text-container {
+        width: 100%;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        padding: 5%;
+    }
+
+    .mobile-img {
+        width: 30%px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    .btn-1 {
+        font-size: 1.5rem;
+        white-space: nowrap;
+        padding: 6% 18%;
+    }
+
+    .success-msg-card p {
+        margin-bottom: 25%;
+
+    }
+
+    .success-msg-card {
+        margin: 4%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 766px) {
+
+    .mobile-img {
+        display: none !important;
+    }
+
+    .text-container {
+        width: 50rem;
+    }
+
+    .signup-container {
+        margin: 0 5%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+}
