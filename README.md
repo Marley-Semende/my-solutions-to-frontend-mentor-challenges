@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [My Solution URL]()
-- Live Site URL: [Live Site URL]()
+- Solution URL: [My Solution URL](https://github.com/Marley-Semende/interactive-newsletter-signup-form)
+- Live Site URL: [Live Site URL](https://marley-semende.github.io/interactive-newsletter-signup-form/)
 
 ## My process and What I learned
 
