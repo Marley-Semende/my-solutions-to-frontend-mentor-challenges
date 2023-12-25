@@ -30,6 +30,7 @@ body p {
 .signup-container {
     display: flex;
     justify-content: center;
+
 }
 
 .text-container {
@@ -38,6 +39,7 @@ body p {
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
     padding: 6% 3% 4% 3%;
+    margin-top: 10%;
 }
 
 .intro-text {
@@ -50,6 +52,7 @@ body p {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     padding: 1%;
+    margin-top: 10%;
 }
 
 .signup-container h1 {
