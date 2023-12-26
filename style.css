@@ -235,7 +235,7 @@ input:hover {
         border-bottom-right-radius: 15px;
         border-top-right-radius: 15px;
         padding: 5%;
-        margin-top: -8%;
+        margin-top: -8% !important;
     }
 
     .mobile-img {
