@@ -227,6 +227,7 @@ input:hover {
 
     .main-img {
         display: none;
+
     }
 
     .text-container {
@@ -234,12 +235,13 @@ input:hover {
         border-bottom-right-radius: 15px;
         border-top-right-radius: 15px;
         padding: 5%;
+        margin-top: -8%;
     }
 
     .mobile-img {
-        width: 30%px;
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
+
     }
 
     .btn-1 {
