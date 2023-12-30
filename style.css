@@ -30,7 +30,6 @@ body p {
 .signup-container {
     display: flex;
     justify-content: center;
-
 }
 
 .text-container {
@@ -96,7 +95,6 @@ label {
     margin-top: 20%;
     display: flex;
     justify-content: space-between;
-
 }
 
 input {
@@ -227,7 +225,6 @@ input:hover {
 
     .main-img {
         display: none;
-
     }
 
     .text-container {
@@ -241,7 +238,6 @@ input:hover {
     .mobile-img {
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
-
     }
 
     .btn-1 {
@@ -252,7 +248,6 @@ input:hover {
 
     .success-msg-card p {
         margin-bottom: 25%;
-
     }
 
     .success-msg-card {
@@ -262,11 +257,7 @@ input:hover {
     .hidden {
         display: none;
     }
-
-
 }
-
-
 
 @media only screen and (min-width: 766px) {
 
