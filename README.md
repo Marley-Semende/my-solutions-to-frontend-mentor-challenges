@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Mobile View
 
-![](./screenshotmobile.png)
+![](./screenshot-mobile-view.png)
 
 ### Avtive States
 
