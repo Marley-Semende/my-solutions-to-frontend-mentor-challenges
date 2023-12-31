@@ -1,4 +1,4 @@
-//constants
+"use strict";
 
 const billInputElement = document.getElementById("bill");
 const numOfPeopleInput = document.getElementById("num-of-people");
@@ -9,7 +9,6 @@ const totalAmountPerPerson = document.querySelector(".amount-two");
 const resetButton = document.querySelector(".reset-btn");
 const formElement = document.querySelectorAll("form");
 
-//variables
 let tipBtnValue = [5, 10, 15, 25, 50];
 let count = 0;
 
@@ -90,7 +89,7 @@ numOfPeopleInput.addEventListener("input", (e) => {
     errorMessage[1].innerText = "";
   }
 });
-
+//event-listenrs for buttons
 tipButton[0].addEventListener("click", (e) => {
   e.preventDefault();
   calculateTipAmount1(tipBtnValue[0]);
