@@ -133,7 +133,7 @@ p.answer {
     color: var(--soft-red);
 }
 
-@media only screen and (min-width: 375px) and (max-width: 780px) {
+@media only screen and (max-width: 600px) {
 
 
     .faq-container {
@@ -179,7 +179,7 @@ p.answer {
 
 
 
-@media only screen and (min-width: 781px) and (max-width: 1000px) {
+/* @media only screen and (min-width: 781px) and (max-width: 1000px) {
     .faq-container {
         width: 650px;
 
@@ -199,4 +199,4 @@ p.answer {
     }
 
 
-}
+} */
