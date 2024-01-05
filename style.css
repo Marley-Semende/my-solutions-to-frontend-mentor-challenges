@@ -142,7 +142,8 @@ p.answer {
         flex-direction: column;
         min-height: 100vh;
         /* padding: 0 4% 4% 4%; */
-        width: 375px;
+        /* width: 375px; */
+        width: 75%;
     }
 
     .question-container {
