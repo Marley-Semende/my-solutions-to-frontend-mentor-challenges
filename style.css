@@ -137,14 +137,12 @@ p.answer {
 
 
     .faq-container {
-        /* min-height: 100vh; */
-        /* width: 75%; */
         display: flex;
-        margin: 24% auto 2% auto;
+        margin: 25% auto 2% auto;
         flex-direction: column;
         min-height: 100vh;
         /* padding: 0 4% 4% 4%; */
-        width: 400px;
+        width: 375px;
     }
 
     .question-container {
