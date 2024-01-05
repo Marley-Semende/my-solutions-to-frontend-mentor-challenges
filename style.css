@@ -142,8 +142,8 @@ p.answer {
         flex-direction: column;
         min-height: 100vh;
         /* padding: 0 4% 4% 4%; */
-        /* width: 375px; */
-        width: 90%;
+        width: 350px;
+
     }
 
     .question-container {
