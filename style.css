@@ -138,10 +138,9 @@ p.answer {
 
     .faq-container {
         display: flex;
-        margin: 25% auto 2% auto;
+        margin: 25% 4% 4% 4%;
         flex-direction: column;
         min-height: 100vh;
-        /* padding: 0 4% 4% 4%; */
         width: 350px;
 
     }
@@ -175,27 +174,3 @@ p.answer {
         margin-top: 15px;
     }
 }
-
-
-
-/* @media only screen and (min-width: 781px) and (max-width: 1000px) {
-    .faq-container {
-        width: 650px;
-
-    }
-
-    .illustration-woman {
-        max-width: 350px;
-    }
-
-    .answer {
-        width: 300px;
-        font-size: 13px;
-    }
-
-    .question-container {
-        font-size: 13px;
-    }
-
-
-} */
