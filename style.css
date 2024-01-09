@@ -267,6 +267,10 @@ h2 {
         width: 80%;
     }
 
+    .bar {
+        margin-right: 1.5%;
+    }
+
     .attribution {
         margin-top: -28px;
     }
