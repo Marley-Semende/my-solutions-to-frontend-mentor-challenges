@@ -88,7 +88,7 @@ body {
 }
 
 .storage-update-container p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     display: inline;
     text-transform: uppercase;
@@ -110,7 +110,7 @@ body {
     color: var(--grayish-blue);
     font-weight: 400;
     margin-bottom: 3%;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .bold {
@@ -123,6 +123,7 @@ body {
     height: 20px;
     border-radius: 20px;
     position: relative;
+    margin-bottom: 1.5%;
 }
 
 .loading-component-2 {
@@ -147,11 +148,13 @@ body {
 
 small {
     color: var(--pale-blue);
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 14px;
+
 }
 
 .gb-counter {
-    margin-left: 250px;
+    margin-left: 360px;
 }
 
 .attribution {
