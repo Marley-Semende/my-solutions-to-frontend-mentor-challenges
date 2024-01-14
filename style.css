@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+:root {
+    --pale-blue: hsl(243, 100%, 93%);
+    --grayish-blue: hsl(229, 7%, 55%);
+    --dark-blue: hsl(228, 56%, 26%);
+    --very-dark-blue: hsl(229, 57%, 11%);
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: "Raleway";
+    background-color: var(--very-dark-blue);
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 85%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.card-one {
+    width: 350px;
+    padding: 3% 6%;
+    background-color: var(--dark-blue);
+    border-top-right-radius: 95px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: 1%;
+}
+
+.logo {
+    margin-bottom: 5%;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16%;
+}
+
+.images-container img {
+    background-color: var(--very-dark-blue);
+    padding: 6% 8%;
+    border-radius: 9px;
+}
+
+.card-two {
+    width: 530px;
+    background-color: var(--dark-blue);
+    padding: 3% 5%;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.storage-update-container {
+    background-color: var(--pale-blue);
+    color: var(--very-dark-blue);
+    padding: 13px 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 225px;
+    right: 280px;
+}
+
+.storage-update-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    display: inline;
+}
+
+.storage-update-container p {
+    font-size: 12px;
+    font-weight: 700;
+    display: inline;
+    text-transform: uppercase;
+    margin-left: 12px;
+}
+
+.storage-update-container::before {
+    content: "";
+    background-color: var(--pale-blue);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -16px;
+    top: 50px;
+    clip-path: polygon(50% 0%, 0% 50%, 100% 100%);
+}
+
+.card-two .main-text {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+
+.bold {
+    font-weight: 700;
+    color: var(--pale-blue);
+}
+
+.loading-component {
+    background-color: var(--very-dark-blue);
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.loading-component-2 {
+    width: 80%;
+    height: 16px;
+    border-radius: 18px;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.loading-component-2::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--pale-blue);
+    position: absolute;
+    right: 2px;
+}
+
+small {
+    color: var(--pale-blue);
+    font-weight: 700;
+}
+
+.gb-counter {
+    margin-left: 250px;
+}
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    margin-top: -150px;
+    color: var(--pale-blue);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(images/bg-mobile.png);
+    }
+
+    .main-container {
+        flex-direction: column;
+
+    }
+
+    .card-one {
+        width: 400px;
+        margin-bottom: -30px;
+    }
+
+    .card-two {
+        width: 400px;
+        padding: 10% 5%;
+    }
+
+    .storage-update-container::before {
+        display: none;
+    }
+
+    .storage-update-container {
+        top: 480px;
+        right: 150px;
+        border-bottom-right-radius: 10px;
+    }
+
+}
