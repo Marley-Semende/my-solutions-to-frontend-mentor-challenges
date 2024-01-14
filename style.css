@@ -64,7 +64,7 @@ body {
 .card-two {
     width: 530px;
     background-color: var(--dark-blue);
-    padding: 3% 5%;
+    padding: 4% 5%;
     border-radius: 8px;
     margin-top: 50px;
 }
