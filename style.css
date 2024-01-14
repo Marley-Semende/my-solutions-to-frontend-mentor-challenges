@@ -168,24 +168,68 @@ small {
     color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (min-width: 375px) and (max-width: 660px) {
+/* @media only screen and (min-width: 375px) and (max-width: 660px) {
     body {
+        max-width: 90%;
         background-image: url(images/bg-mobile.png);
         background-size: cover;
     }
 
     .main-container {
         flex-direction: column;
+        max-width: 80%;
     }
 
     .card-one {
-        width: 375px;
-        margin-bottom: -30px;
+        max-width: 50%;
+        /* margin-bottom: -30px; 
+}
+
+.card-two {
+    width: 10%;
+    padding: 10% 5%;
+}
+
+.storage-update-container::before {
+    display: none;
+}
+
+.storage-update-container {
+    top: 480px;
+    right: 150px;
+    border-bottom-right-radius: 10px;
+}
+
+.gb-counter {
+    margin-left: 250px;
+}
+
+} */
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 90%;
+    }
+
+    main {
+        flex-direction: column;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .card-one {
+        width: 90%;
+        min-height: 40vh;
+        margin-bottom: -40px;
     }
 
     .card-two {
-        width: 400px;
-        padding: 10% 5%;
+        width: 90%;
+        min-height: 40vh;
+    }
+
+    .gb-counter {
+        margin-left: 130px;
     }
 
     .storage-update-container::before {
@@ -193,13 +237,27 @@ small {
     }
 
     .storage-update-container {
-        top: 480px;
-        right: 150px;
-        border-bottom-right-radius: 10px;
+        right: 100px;
+        top: 470px;
+        padding: 4%;
+        border-bottom-right-radius: 8px;
     }
 
-    .gb-counter {
-        margin-left: 250px;
+    .storage-update-container h1 {
+        font-size: 30px;
     }
 
+    .storage-update-container p {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    .main-text {
+        margin-top: 25%;
+    }
+
+    .attribution {
+        font-size: 11px;
+        margin-top: 6%;
+    }
 }
