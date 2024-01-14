@@ -110,6 +110,7 @@ body {
     color: var(--grayish-blue);
     font-weight: 400;
     margin-bottom: 3%;
+    font-size: 15px;
 }
 
 .bold {
