@@ -77,7 +77,7 @@ body {
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     position: absolute;
-    top: 210px;
+    top: 240px;
     right: 280px;
 }
 
@@ -168,43 +168,7 @@ small {
     color: hsl(228, 45%, 44%);
 }
 
-/* @media only screen and (min-width: 375px) and (max-width: 660px) {
-    body {
-        max-width: 90%;
-        background-image: url(images/bg-mobile.png);
-        background-size: cover;
-    }
 
-    .main-container {
-        flex-direction: column;
-        max-width: 80%;
-    }
-
-    .card-one {
-        max-width: 50%;
-        /* margin-bottom: -30px; 
-}
-
-.card-two {
-    width: 10%;
-    padding: 10% 5%;
-}
-
-.storage-update-container::before {
-    display: none;
-}
-
-.storage-update-container {
-    top: 480px;
-    right: 150px;
-    border-bottom-right-radius: 10px;
-}
-
-.gb-counter {
-    margin-left: 250px;
-}
-
-} */
 
 @media only screen and (max-width: 600px) {
     body {
