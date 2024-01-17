@@ -1,3 +1,5 @@
+"use strict";
+
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const navBar = document.querySelector(".nav-bar");
 const lineOne = document.querySelector(".hamburger-1");
