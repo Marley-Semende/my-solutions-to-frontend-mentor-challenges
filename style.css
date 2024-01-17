@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root {
+    /* primary colors */
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+
+    /* neutral colors */
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    background-color: var(--off-white);
+    font-family: "Inter";
+    min-height: 100vh;
+}
+
+.main-container {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 7% 0 5% 0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: end;
+    width: 80%;
+}
+
+.nav-bar li {
+    list-style: none;
+    color: var(--very-dark-blue);
+    font-weight: 500;
+}
+
+.nav-bar li:hover {
+    color: var(--soft-red);
+    cursor: pointer;
+}
+
+.nav-bar li:not(.last-child) {
+    margin-right: 5%;
+}
+
+.grid-one-container {
+    display: grid;
+    gap: 2.4%;
+}
+
+.main-image img {
+    max-width: 100%;
+}
+
+.new-stories {
+    background-color: var(--very-dark-blue);
+    padding: 1% 6% 0 6%;
+}
+
+.new-stories h1 {
+    color: var(--soft-orange);
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 5%;
+    padding-top: 8%;
+}
+
+.new-stories h2 {
+    color: var(--off-white);
+    font-weight: 700;
+    font-size: 20px;
+    padding: 4% 0;
+}
+
+.new-stories h2:hover {
+    cursor: pointer;
+    color: var(--soft-orange);
+}
+
+.new-stories p {
+    color: var(--grayish-blue);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 14%;
+}
+
+.line-1 {
+    margin: 2% auto 5% auto;
+    height: 1px;
+    background-color: var(--dark-grayish-blue);
+    width: 95%;
+}
+
+.line-2 {
+    margin: auto;
+    height: 1px;
+    background-color: var(--dark-grayish-blue);
+    width: 95%;
+    margin: 2% auto 5% auto;
+}
+
+.main-title h3 {
+    font-size: 55px;
+    font-weight: 800;
+    padding: 5% 2% 0 5%;
+}
+
+.main-text {
+    padding: 5% 2% 0 0%;
+}
+
+.main-text button {
+    background-color: var(--soft-red);
+    color: var(--off-white);
+    border: none;
+    padding: 5% 10%;
+    text-transform: uppercase;
+    margin-top: 10%;
+    font-family: "Inter";
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+.main-text button:hover {
+    cursor: pointer;
+    background-color: var(--very-dark-blue);
+}
+
+.main-image {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.new-stories {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.grid-two-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 8%;
+}
+
+.grid-two-container img {
+    max-width: 100px;
+}
+
+.retro-container,
+.laptop-container,
+.gaming-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-two-container h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--grayish-blue);
+}
+
+.grid-two-container h5 {
+    white-space: nowrap;
+    color: var(--very-dark-blue);
+    font-size: 18px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    font-weight: 700;
+}
+
+.grid-two-container h5:hover {
+    color: var(--soft-red);
+    cursor: pointer;
+}
+
+.retro-text,
+.laptop-text,
+.gaming-text {
+    padding: 1% 5% 2% 5%;
+    color: var(--very-dark-blue);
+}
+
+@media only screen and (max-width: 800px) {
+    .grid-one-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .new-stories {
+        order: 2;
+        margin-top: 5%;
+    }
+
+    .main-title h3 {
+        padding: 5% 0;
+    }
+
+    .grid-two-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .hamburger-1,
+    .hamburger-2,
+    .hamburger-3 {
+        height: 2px;
+        width: 30px;
+        background-color: var(--very-dark-blue);
+        margin: 20% 0;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: start;
+        position: absolute;
+        right: -1px;
+        box-shadow: -1px -1px 2px var(--grayish-blue);
+        background-color: var(--off-white);
+        padding: 0 0 2% 5%;
+        z-index: 1;
+    }
+
+    .hamburger-menu {
+        cursor: pointer;
+        z-index: 2;
+        margin: 5%;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .nav-bar li:not(.first-child) {
+        margin: 8% 0;
+    }
+
+    .first-child {
+        margin: 40% 0 8% 0;
+    }
+}
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--very-dark-blue);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
