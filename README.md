@@ -16,7 +16,7 @@ This repository documents my learning journey in web development through the com
 
 Explore my solutions to Frontend Mentor challenges:
 
-1. [Tip Calculator App](/challenge1): [Live Demo]()
+1. [Tip Calculator App](/challenge1): [Live Demo](https://marley-semende.github.io/my-solutions-to-frontend-mentor-challenges/)
 2. [Challenge 2](/challenge2): [Live Demo]()
 
 ## Feedback
