@@ -165,12 +165,13 @@
 
  @media only screen and (max-width: 800px) {
      .main-container {
+         /* max-width: 60vw; */
          flex-direction: column;
+         margin: auto;
      }
 
      .img-container {
-         width: 450px;
-
+         width: 420px;
      }
 
      .img-container img {
@@ -184,13 +185,14 @@
          border-top-right-radius: 0;
          border-bottom-left-radius: 12px;
          margin-top: -10px;
-         padding: 10%;
+         padding: 5%;
+         width: 420px;
      }
 
      .social-media {
          width: 100%;
          height: 60px;
-         top: 315px;
+         top: 250px;
          left: 0;
          border-top-right-radius: 0;
          border-top-left-radius: 0;
