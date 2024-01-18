@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="page-container">
+    <div class="age-calculator-container">
+
+      <form action="">
+        <div class="form-field-label">
+          <label for="day-of-birth" class="label-day">Day</label>
+          <label for="month-of-birth" class="label-month">Month</label>
+          <label for="year-of-birth " class="label-year">Year</label>
+        </div>
+        <div class="form-field-input">
+          <input type="text" id="day-of-birth" name="day-of-birth" placeholder="DD">
+
+          <input type="tex" id="month-of-birth" name="month-of-birth" placeholder="MM">
+
+          <input type="text" id="year-of-birth" name="year-of-birth" placeholder="YYYY">
+
+        </div>
+        <div class="error-msg">
+          <small class="one"></small>
+          <small class="two"></small>
+          <small class="three"></small>
+        </div>
+
+      </form>
+      <div class="happy-birthday">
+        <p></p>
+      </div>
+      <div class="arrow-icon-container">
+        <div class="line"></div>
+        <div class="img-container">
+          <img class="arrow-button pulsate" src="assets/images/icon-arrow.svg" alt="an arrow icon">
+        </div>
+      </div>
+      <div class="main-text-container">
+        <h1><span class="dash">--</span>years</h1>
+        <h2><span class="dash">--</span>months</h2>
+        <h2><span class="dash">--</span>days</h2>
+      </div>
+    </div>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Marley_Marl</a>.
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
