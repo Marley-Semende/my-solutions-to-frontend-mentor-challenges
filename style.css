@@ -28,11 +28,12 @@
  }
 
  .page-container {
-     min-height: 100vh;
+     min-height: 80vh;
      display: flex;
      justify-content: center;
      align-items: center;
      flex-direction: column;
+     width: 100%;
  }
 
  .age-calculator-container {
@@ -42,10 +43,12 @@
      border-top-right-radius: 15px;
      border-bottom-right-radius: 150px;
      padding: 2% 4%;
+     margin-top: 5%;
+
  }
 
  form {
-     margin-bottom: 10%;
+     margin-bottom: 8%;
      margin-top: 4%;
  }
 
@@ -153,7 +156,7 @@
  }
 
  .main-text-container {
-     margin-top: -5px;
+     margin-top: -18px;
      line-height: normal;
  }
 
@@ -181,7 +184,7 @@
 
  .happy-birthday {
      position: absolute;
-     top: 190px;
+     top: 315px;
      right: 650px;
      font-family: "Emilys Candy";
      font-size: 20px;
@@ -216,6 +219,7 @@
  .attribution {
      font-size: 11px;
      text-align: center;
+     margin-top: 10px;
  }
 
  .attribution a {
