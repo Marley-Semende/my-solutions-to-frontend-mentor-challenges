@@ -220,6 +220,7 @@
      font-size: 11px;
      text-align: center;
      margin-top: 20px;
+     display: none;
  }
 
  .attribution a {
