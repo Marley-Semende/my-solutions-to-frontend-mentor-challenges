@@ -120,14 +120,15 @@
  .img-container {
      text-align: center;
      background-color: var(--off-black);
-     width: 7vw;
-     height: 15vh;
+     width: 100px;
+     height: 100px;
      border-radius: 48%;
      display: flex;
      align-items: center;
      justify-content: center;
      margin-top: -70px;
      margin-left: -3px;
+     cursor: pointer;
  }
 
  .img-container:hover {
@@ -272,8 +273,8 @@
      .img-container {
          text-align: center;
          background-color: var(--off-black);
-         width: 16vw;
-         height: 9vh;
+         width: 90px;
+         height: 65px;
          border-radius: 50%;
          display: flex;
          align-items: center;
