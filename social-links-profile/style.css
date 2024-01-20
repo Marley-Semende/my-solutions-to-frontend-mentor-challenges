@@ -31,6 +31,7 @@
      margin-bottom: 10px;
      display: inline-block;
      cursor: pointer;
+     display: none;
 
  }
 
@@ -45,6 +46,7 @@
      left: 11px;
      top: 1.5px;
      transition: all .5s;
+     display: none;
  }
 
  #toggle:checked+.toggle-icon::after {
@@ -159,14 +161,14 @@
      display: none;
  }
 
- @media only screen and (max-width: 800px) {
+ @media only screen and (max-width: 600px) {
      .main-container {
-         max-width: 90%;
+         max-width: 80%;
          margin: auto;
      }
 
      .card-container {
-         width: 88%;
+         width: 100%;
          margin: 0 auto;
 
      }
@@ -184,7 +186,7 @@
          width: 50px;
          height: 15px;
          padding: 8px 5px 2px 5px;
-         ;
+         display: none;
      }
 
      .toggle-icon::after {
@@ -192,6 +194,7 @@
          height: 23px;
          left: 6.3px;
          top: 1px;
+         display: none;
      }
 
      .toggle-text {
@@ -200,6 +203,7 @@
 
      #toggle:checked+.toggle-icon::after {
          left: 31px;
+
      }
 
  }
