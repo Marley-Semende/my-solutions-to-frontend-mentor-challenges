@@ -1,0 +1,160 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+ body {
+     font-family: "Inter";
+     width: 100vw;
+     background-color: hsl(0, 0%, 8%);
+ }
+
+ .main-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .toggle-icon {
+     width: 70px;
+     height: 20px;
+     /* border: hsl(0, 0%, 20%) solid 2px; */
+     border-radius: 15px;
+     background-color: hsl(0, 0%, 20%);
+     position: relative;
+     right: -150px;
+     padding: 8px 5px 0px 5px;
+     margin-bottom: 10px;
+     display: inline-block;
+     cursor: pointer;
+ }
+
+ .toggle-icon::after {
+     content: "";
+     width: 24px;
+     height: 24px;
+     border-radius: 50%;
+     /* background-color: hsl(75, 94%, 57%); */
+     background-color: #dddddd;
+     position: absolute;
+     left: 11px;
+     top: 1.5px;
+     transition: all .5s;
+ }
+
+ #toggle:checked+.toggle-icon::after {
+     left: 43px;
+ }
+
+ #toggle {
+     display: none;
+ }
+
+ .toggle-icon p {
+     font-size: 8px;
+     color: #fff;
+     /* position: absolute; */
+ }
+
+ .toggle-text small {
+     font-size: 10px;
+     color: #dddddd;
+     /* margin-right: 12px; */
+
+ }
+
+ .toggle-text {
+     display: flex;
+     justify-content: space-evenly;
+
+ }
+
+ .card-container {
+     padding: 3.2% 1% 2.5% 1%;
+     width: 360px;
+     text-align: center;
+     background-color: hsl(0, 0%, 12%);
+     border-radius: 15px;
+ }
+
+ img {
+     width: 90px;
+     border-radius: 50%;
+ }
+
+ .btn {
+     width: 85%;
+     padding: 4% 0;
+     margin: 1.8% 2%;
+     border: none;
+     background-color: hsl(0, 0%, 20%);
+     color: #fff;
+     font-family: "Inter";
+     font-weight: 600;
+     border-radius: 5px;
+     line-height: normal;
+     letter-spacing: 1px;
+     font-size: 14px;
+     cursor: pointer;
+ }
+
+ .btn:hover {
+     /* background-color: hsl(60, 80%, 55%); */
+     /* color: hsl(180, 68%, 61%); */
+     background-color: hsl(75, 94%, 57%);
+     color: hsl(0, 0%, 8%);
+ }
+
+ h1 {
+     color: #fff;
+     font-size: 14px;
+     font-weight: 400;
+     margin-top: 20px;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+ }
+
+ h2 {
+     font-size: 14px;
+     font-weight: 600;
+     color: hsl(75, 94%, 57%);
+     margin-top: 4px;
+     letter-spacing: 1px;
+ }
+
+ .title {
+     color: #fff;
+     font-weight: 400;
+     font-size: 13px;
+     margin-top: 25px;
+     margin-bottom: 25px;
+     letter-spacing: 1px;
+ }
+
+ .btn.first {
+     margin-top: 10px;
+ }
+
+ .skills small {
+     color: #fff;
+     font-size: 12px;
+     letter-spacing: 1px;
+ }
+
+ .skills {
+     margin-top: -15px;
+ }
+
+ .attribution {
+     text-align: center;
+     color: #fff;
+     font-size: 11px;
+     font-weight: 400;
+     margin-top: -30px;
+     display: none;
+ }
