@@ -161,8 +161,40 @@
 
  @media only screen and (max-width: 800px) {
      .card-container {
-         width: 90%;
+         width: 85%;
          margin: 0 auto;
-         min-height: 100vh;
+
      }
+
+     .btn {
+         padding: 6% 0;
+         margin: 3% 2%;
+     }
+
+     .skills {
+         margin-bottom: 10px;
+     }
+
+     .toggle-icon {
+         width: 50px;
+         height: 15px;
+         padding: 8px 5px 2px 5px;
+         ;
+     }
+
+     .toggle-icon::after {
+         width: 23px;
+         height: 23px;
+         left: 6.3px;
+         top: 1px;
+     }
+
+     .toggle-text {
+         font-size: 6px;
+     }
+
+     #toggle:checked+.toggle-icon::after {
+         left: 31px;
+     }
+
  }
