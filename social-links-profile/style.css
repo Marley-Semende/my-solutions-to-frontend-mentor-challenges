@@ -26,11 +26,12 @@
      border-radius: 15px;
      background-color: hsl(0, 0%, 20%);
      position: relative;
-     right: -135px;
+     right: -130px;
      padding: 8px 5px 0px 5px;
      margin-bottom: 10px;
      display: inline-block;
      cursor: pointer;
+     margin-top: 10px;
  }
 
  .toggle-icon::after {
@@ -160,7 +161,12 @@
 
  @media only screen and (max-width: 800px) {
      .main-container {
-         max-width: 80%;
+         /* max-width: 50%; */
+         margin: auto;
+     }
+
+     .card-container {
+         width: 70%;
          margin: auto;
      }
  }
