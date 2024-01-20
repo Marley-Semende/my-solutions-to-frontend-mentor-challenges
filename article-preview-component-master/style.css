@@ -153,6 +153,7 @@
  }
 
  .attribution {
+     display: none;
      font-size: 13px;
      text-align: center;
      margin-top: -150px;
