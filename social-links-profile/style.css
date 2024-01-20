@@ -160,6 +160,11 @@
  }
 
  @media only screen and (max-width: 800px) {
+     .main-container {
+         max-width: 90%;
+         margin: auto;
+     }
+
      .card-container {
          width: 88%;
          margin: 0 auto;
