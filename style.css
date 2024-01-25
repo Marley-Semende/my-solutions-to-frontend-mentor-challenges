@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 95vh;
+    min-height: 97vh;
 }
 
 .quotes-container {
