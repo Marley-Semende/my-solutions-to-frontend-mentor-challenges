@@ -54,7 +54,7 @@ body {
 
 .pattern {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 9%;
 }
 
 .dice-container {
@@ -64,7 +64,7 @@ body {
     border-radius: 50%;
     text-align: center;
     position: absolute;
-    top: 88%;
+    top: 89%;
     left: 44%;
     padding: 2%;
 }
