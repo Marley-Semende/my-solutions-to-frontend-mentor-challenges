@@ -1,0 +1,172 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+  :root {
+    font-size: 62.5%;
+    --nutmeg:  hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white:  hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+  }
+
+  *, ::before, ::after {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--eggshell);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+h1, h3, h4, h5 {
+    font-family: "Young Serif";
+}
+
+body:not(h1, h2, h3, h4, h5) {
+    font-size: 1.6rem;
+    font-family: Outfit;
+}
+.recipe-container {
+    background-color: var(--white);
+    width: 48%;
+    padding: 3% 3%;
+    border-radius: 15px;
+    margin: 5% 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.first-paragraph p {
+    margin-top: 3%;
+    color: var(--dark-charcoal);
+}
+
+h1 {
+    color: var(--dark-charcoal);
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 4%;
+}
+
+.prep-time {
+    background-color: var(--eggshell);
+    padding: 5%;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+h2 {
+    color: var(--dark-raspberry);
+    font-size: 2.0rem;
+    font-weight: 700;
+    /* letter-spacing: 1px; */
+}
+
+.prep-time span {
+    color: var(--dark-charcoal);
+    margin-left: 2%;
+    font-weight: 400;
+}
+
+.prep-time li {
+    margin:  2.2% 5%;
+}
+
+.prep-time li:not(span) {
+    color: var(--wenge-brown);
+    font-weight: 700;
+}
+
+h3 {
+    color: var(--nutmeg);
+    font-size: 2.8rem;
+    margin-top: 2%;
+}
+
+.ingridients {
+    color: var(--dark-charcoal);
+}
+
+.ingridients li, .instructions li  {
+    margin: 2.4% 6%;
+}
+
+.instructions li:not(span) {
+    color: var(--dark-charcoal);
+    font-weight: 700;
+}
+
+.instructions span {
+    font-weight: 400;
+}
+
+.nutrition p {
+    margin: 2.4% 6%;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: var(--light-grey);
+}
+
+h4 {
+    color: var(--nutmeg);
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+    margin-top: 5%;
+}
+
+h5 {
+    color: var(--nutmeg);
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+    margin-top: 5%;  
+}
+
+.nutrition span {
+color: var(--nutmeg);
+font-weight: 700;
+}
+
+.span1 {
+    margin-left: 50%;
+}
+
+.span2 {
+    margin-left: 53%;
+}
+
+.span3 {
+    margin-left: 50%;
+}
+
+.span4 {
+    margin-left: 56%;
+} 
+
+
+@media only screen and (max-width: 600px) {
+    .recipe-container {
+        width: 90%;
+    }
+}
