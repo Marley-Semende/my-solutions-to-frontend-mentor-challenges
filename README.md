@@ -27,9 +27,6 @@ Users should be able to:
 ## Desktop
 ![](./desktop-screenshot.jpeg)
 
-## Mobile
-![](./tablet-screenshot.jpeg)
-
 ### Links
 - Solution URL: [Solution URL](https://your-solution-url.com)
 - Live Site URL: [Livesite URL](https://your-live-site-url.com)
