@@ -140,7 +140,11 @@ margin: auto;
 width: 80%;
 padding: 1.2%;
 margin-top: -2.8%;
+/* margin-top: -3.8%; */
 margin-left: 10%;
+}
+.pvt-msg {
+margin-top: -2%;
 }
 .comment:hover {
 background-color: var(--notification-bg);
